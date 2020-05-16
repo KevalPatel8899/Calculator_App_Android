@@ -1,0 +1,26 @@
+package com.example.calculator
+
+import org.junit.Test
+
+import org.junit.Assert.*
+
+/**
+ * Example local unit test, which will execute on the development machine (host).
+ *
+ * See [testing documentation](http://d.android.com/tools/testing).
+ */
+class ExampleUnitTest {
+    @Test
+    fun addition_isCorrect() {
+        assertEquals(4, 2 + 2)
+    }
+
+    @Test
+    fun testCheck() {
+        var s= "some"
+        println(s)
+        s = s.substring(0, s.length -1)
+        println(s)
+    }
+
+}
